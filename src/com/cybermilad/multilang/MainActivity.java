@@ -6,6 +6,7 @@ import android.content.Context;
 import android.content.Intent;
 import android.content.SharedPreferences;
 import android.content.res.Configuration;
+import android.media.AudioRecord.OnRecordPositionUpdateListener;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.AdapterView;
@@ -63,15 +64,20 @@ public class MainActivity extends Activity {
 				
 				Intent intent = new Intent(MainActivity.this, MainActivity.class);
 				startActivity(intent);
+				finish();
 				
 			}
 		});
 		
 	}
 
+	protected void onRestart(Bundle savedInstanceState){
+		super.onRestart();
+		loadLocale();
+	}
+	
 	// set local
-	public void setLocale(String lang) { 	
-		
+	public void setLocale(String lang) {		
 		SharedPreferences sharedPreferences = getSharedPreferences("config", Context.MODE_PRIVATE);
 		SharedPreferences.Editor editor = sharedPreferences.edit();
 		editor.putString("lang", lang);
@@ -93,6 +99,10 @@ public class MainActivity extends Activity {
 	    getBaseContext().getResources().updateConfiguration(config, 
 	    getBaseContext().getResources().getDisplayMetrics());
 	    this.setContentView(R.layout.activity_main);
-	} 	
+	} 
+	
+	public void onBackPressed() {
+	    finish();
+	}
 	
 }
