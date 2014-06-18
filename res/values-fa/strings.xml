@@ -10,7 +10,7 @@
 	<string name="change_lap_text">تغییر زبان : </string>
 	<string-array name="lang_array">
         <item>English</item>
-        <item>Detsch</item>
+        <item>Deutsch</item>
         <item>فارسی</item>
     </string-array>
     <string name="refresh_text">شروع مجدد</string>

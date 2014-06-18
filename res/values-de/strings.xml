@@ -2,17 +2,17 @@
 <resources>
 
     <string name="app_name">Android Multilanguage</string>
-    <string name="welcome_text">Willkommen</string>
+    <string name="welcome_text">Willkommen !</string>
 	<string name="my_name_text">Ich heiße Milad.</string>
-	<string name="my_old_text">Ich bin 26 Jahre old.</string>
-	<string name="my_job_text">Ich bin Webprogrammeres.</string>
+	<string name="my_old_text">Ich bin 26 Jahre alt.</string>
+	<string name="my_job_text">Ich bin Webprogrammer.</string>
 	<string name="android_text">Mir gefällt Android.</string>
 	<string name="change_lap_text">Sprache ändern : </string>
 	<string-array name="lang_array">
         <item>English</item>
-        <item>Detsch</item>
+        <item>Deutsch</item>
         <item>فارسی</item>
     </string-array>
-    <string name="refresh_text">neu laden</string>
+    <string name="refresh_text">Neu laden</string>
     
 </resources>
