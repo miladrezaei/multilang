@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Android Multilanguage</string>
+    <string name="welcome_text">خوش آمدید</string>
+	<string name="my_name_text">من میلاد هستم</string>
+	<string name="my_old_text">من ۲۶ سال دارم</string>
+	<string name="my_job_text">من یک برنامه نویس هستم</string>
+	<string name="android_text">من به اندروید علاقه مندم.</string>
+	<string name="change_lap_text">تغییر زبان : </string>
+	<string-array name="lang_array">
+        <item>English</item>
+        <item>Detsch</item>
+        <item>فارسی</item>
+    </string-array>
+    <string name="refresh_text">شروع مجدد</string>
+    
+</resources>
